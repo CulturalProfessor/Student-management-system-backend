@@ -13,7 +13,7 @@ export const create = (req, res) => {
 
   // new user
   const user = new Userdb({
-    _id: req.body.id,
+    _id: req.body._id,
     firstName: req.body.firstName,
     middleName: req.body.middleName,
     lastName: req.body.lastName,
